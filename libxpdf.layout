@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Gcw Zero Release" />
+	<File name="aconf.h" open="1" top="1" tabpos="1">
+		<Cursor position="1575" topLine="84" />
+	</File>
+	<File name="aconfwin32.h" open="0" top="0" tabpos="0">
+		<Cursor position="1757" topLine="85" />
+	</File>
+	<File name="fogoo\FoFiTrueType.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="53832" topLine="1611" />
+	</File>
+	<File name="fogoo\gtypes.h" open="0" top="0" tabpos="0">
+		<Cursor position="457" topLine="0" />
+	</File>
+	<File name="splash\Splash.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="45917" topLine="1652" />
+	</File>
+	<File name="splash\Splash.h" open="0" top="0" tabpos="0">
+		<Cursor position="7083" topLine="200" />
+	</File>
+	<File name="splash\SplashBitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="1302" topLine="23" />
+	</File>
+	<File name="splash\SplashFTFontEngine.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3138" topLine="112" />
+	</File>
+	<File name="splash\SplashMath.h" open="0" top="0" tabpos="0">
+		<Cursor position="779" topLine="24" />
+	</File>
+	<File name="splash\SplashScreen.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2618" topLine="80" />
+	</File>
+	<File name="splash\SplashScreen.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="21" />
+	</File>
+	<File name="splash\SplashXPath.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1917" topLine="136" />
+	</File>
+	<File name="xpdf\Annot.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="391" topLine="88" />
+	</File>
+	<File name="xpdf\CoreOutputDev.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1019" topLine="16" />
+	</File>
+	<File name="xpdf\CoreOutputDev.h" open="0" top="0" tabpos="0">
+		<Cursor position="798" topLine="23" />
+	</File>
+	<File name="xpdf\ErrorCodes.h" open="0" top="0" tabpos="0">
+		<Cursor position="533" topLine="13" />
+	</File>
+	<File name="xpdf\GlobalParams.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="80032" topLine="2904" />
+	</File>
+	<File name="xpdf\GlobalParams.h" open="0" top="0" tabpos="0">
+		<Cursor position="9141" topLine="299" />
+	</File>
+	<File name="xpdf\JBIG2Stream.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="70452" topLine="2635" />
+	</File>
+	<File name="xpdf\Outline.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="267" topLine="3" />
+	</File>
+	<File name="xpdf\Outline.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="36" />
+	</File>
+	<File name="xpdf\PDFCore.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1600" topLine="69" />
+	</File>
+	<File name="xpdf\PDFCore.h" open="0" top="0" tabpos="2">
+		<Cursor position="402" topLine="15" />
+	</File>
+	<File name="xpdf\PDFDoc.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="3784" topLine="143" />
+	</File>
+	<File name="xpdf\PDFDoc.h" open="0" top="0" tabpos="6">
+		<Cursor position="5068" topLine="145" />
+	</File>
+	<File name="xpdf\SecurityHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="245" topLine="6" />
+	</File>
+	<File name="xpdf\SecurityHandler.h" open="0" top="0" tabpos="0">
+		<Cursor position="586" topLine="0" />
+	</File>
+	<File name="xpdf\SplashOutputDev.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="22134" topLine="773" />
+	</File>
+	<File name="xpdf\SplashOutputDev.h" open="0" top="0" tabpos="0">
+		<Cursor position="1356" topLine="69" />
+	</File>
+	<File name="xpdf\Stream.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="70423" topLine="2974" />
+	</File>
+	<File name="xpdf\TextOutputDev.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="83013" topLine="3119" />
+	</File>
+</CodeBlocks_layout_file>

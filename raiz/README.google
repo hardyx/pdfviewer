@@ -1,0 +1,14 @@
+
+This is a variant of xpdf 3.02 with some small modifications by Google
+and patched up to pl2.  Google Desktop for Windows uses pdftotext to
+extact the contents of PDF files.
+
+A diff between this version and the stock (unpatched) xpdf 3.02 can be
+found in the file google-changes.diff.
+
+The original xpdf sources can be downloaded from
+http://www.foolabs.com/xpdf/download.html
+
+The pl1 and pl2 patches can be downloaded from
+ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch
+ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch

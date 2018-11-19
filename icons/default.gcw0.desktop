@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=PdfViewer
+Type=Application
+Exec=pdfviewerz.dge
+Icon=icongcw
+Comment=Visor de Pdf
+Terminal=false
+Categories=applications;
+X-OD-Manual=descript.txt

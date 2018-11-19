@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libxpdf" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="PC Debug">
+				<Option output=".\built\libxpdfp" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output=".\obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-I. -Ifogoo -Isplash -Ixpdf" />
+					<Add option="-DWIN32" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+				</Linker>
+			</Target>
+			<Target title="Devkit Wiz Release">
+				<Option output=".\built\libxpdfw.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".\obj\Wiz" />
+				<Option type="2" />
+				<Option compiler="devkitwiz" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-march=armv5te -mtune=arm926ej-s" />
+					<Add option="-I. -Ifogoo -Isplash -Ixpdf" />
+					<Add option="-DWIZ" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-msoft-float" />
+				</Linker>
+			</Target>
+			<Target title="Devkit Gp2x Release">
+				<Option output=".\built\libxpdf2x.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".\obj\Gp2x" />
+				<Option type="2" />
+				<Option compiler="devkitwiz" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-march=armv4t -mtune=arm920t" />
+					<Add option="-I. -Ifogoo -Isplash -Ixpdf" />
+					<Add option="-DGP2X" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-dynamic -msoft-float" />
+					<Add library="gcc" />
+					<Add library="m" />
+					<Add library="c" />
+					<Add library="expat" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Gph Caanoo Release">
+				<Option output=".\built\libxpdfc.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".\obj\Caan" />
+				<Option type="2" />
+				<Option compiler="gph_caanoo" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-march=armv5te -mtune=arm926ej-s" />
+					<Add option="-I. -Ifogoo -Isplash -Ixpdf" />
+					<Add option="-DCAANOO" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-msoft-float" />
+				</Linker>
+			</Target>
+			<Target title="Gcw Zero Release">
+				<Option output=".\built\libxpdfz.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".\obj\Gcw" />
+				<Option type="2" />
+				<Option compiler="gcw_zero" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-I. -Ifogoo -Isplash -Ixpdf" />
+					<Add option="-Wno-write-strings -Wno-maybe-uninitialized" />
+					<Add option="-DGCW0" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="aconf.h" />
+		<Unit filename="aconf2.h" />
+		<Unit filename="aconfwin32.h" />
+		<Unit filename="fogoo\FixedPoint.cpp" />
+		<Unit filename="fogoo\FixedPoint.h" />
+		<Unit filename="fogoo\FoFiBase.cpp" />
+		<Unit filename="fogoo\FoFiBase.h" />
+		<Unit filename="fogoo\FoFiEncodings.cpp" />
+		<Unit filename="fogoo\FoFiEncodings.h" />
+		<Unit filename="fogoo\FoFiTrueType.cpp" />
+		<Unit filename="fogoo\FoFiTrueType.h" />
+		<Unit filename="fogoo\FoFiType1.cpp" />
+		<Unit filename="fogoo\FoFiType1.h" />
+		<Unit filename="fogoo\FoFiType1C.cpp" />
+		<Unit filename="fogoo\FoFiType1C.h" />
+		<Unit filename="fogoo\GHash.cpp" />
+		<Unit filename="fogoo\GHash.h" />
+		<Unit filename="fogoo\GList.cpp" />
+		<Unit filename="fogoo\GList.h" />
+		<Unit filename="fogoo\GMutex.h" />
+		<Unit filename="fogoo\GString.cpp" />
+		<Unit filename="fogoo\GString.h" />
+		<Unit filename="fogoo\gfile.cpp" />
+		<Unit filename="fogoo\gfile.h" />
+		<Unit filename="fogoo\gmem.cpp" />
+		<Unit filename="fogoo\gmem.h" />
+		<Unit filename="fogoo\gmempp.cpp" />
+		<Unit filename="fogoo\gtypes.h" />
+		<Unit filename="splash\Splash.cpp" />
+		<Unit filename="splash\Splash.h" />
+		<Unit filename="splash\SplashBitmap.cpp" />
+		<Unit filename="splash\SplashBitmap.h" />
+		<Unit filename="splash\SplashClip.cpp" />
+		<Unit filename="splash\SplashClip.h" />
+		<Unit filename="splash\SplashErrorCodes.h" />
+		<Unit filename="splash\SplashFTFont.cpp" />
+		<Unit filename="splash\SplashFTFont.h" />
+		<Unit filename="splash\SplashFTFontEngine.cpp" />
+		<Unit filename="splash\SplashFTFontEngine.h" />
+		<Unit filename="splash\SplashFTFontFile.cpp" />
+		<Unit filename="splash\SplashFTFontFile.h" />
+		<Unit filename="splash\SplashFont.cpp" />
+		<Unit filename="splash\SplashFont.h" />
+		<Unit filename="splash\SplashFontEngine.cpp" />
+		<Unit filename="splash\SplashFontEngine.h" />
+		<Unit filename="splash\SplashFontFile.cpp" />
+		<Unit filename="splash\SplashFontFile.h" />
+		<Unit filename="splash\SplashFontFileID.cpp" />
+		<Unit filename="splash\SplashFontFileID.h" />
+		<Unit filename="splash\SplashGlyphBitmap.h" />
+		<Unit filename="splash\SplashMath.h" />
+		<Unit filename="splash\SplashPath.cpp" />
+		<Unit filename="splash\SplashPath.h" />
+		<Unit filename="splash\SplashPattern.cpp" />
+		<Unit filename="splash\SplashPattern.h" />
+		<Unit filename="splash\SplashScreen.cpp" />
+		<Unit filename="splash\SplashScreen.h" />
+		<Unit filename="splash\SplashState.cpp" />
+		<Unit filename="splash\SplashState.h" />
+		<Unit filename="splash\SplashT1Font.cpp" />
+		<Unit filename="splash\SplashT1Font.h" />
+		<Unit filename="splash\SplashT1FontEngine.cpp" />
+		<Unit filename="splash\SplashT1FontEngine.h" />
+		<Unit filename="splash\SplashT1FontFile.cpp" />
+		<Unit filename="splash\SplashT1FontFile.h" />
+		<Unit filename="splash\SplashTypes.h" />
+		<Unit filename="splash\SplashXPath.cpp" />
+		<Unit filename="splash\SplashXPath.h" />
+		<Unit filename="splash\SplashXPathScanner.cpp" />
+		<Unit filename="splash\SplashXPathScanner.h" />
+		<Unit filename="xpdf\Annot.cpp" />
+		<Unit filename="xpdf\Annot.h" />
+		<Unit filename="xpdf\Array.cpp" />
+		<Unit filename="xpdf\Array.h" />
+		<Unit filename="xpdf\BuiltinFont.cpp" />
+		<Unit filename="xpdf\BuiltinFont.h" />
+		<Unit filename="xpdf\BuiltinFontTables.cpp" />
+		<Unit filename="xpdf\BuiltinFontTables.h" />
+		<Unit filename="xpdf\CMap.cpp" />
+		<Unit filename="xpdf\CMap.h" />
+		<Unit filename="xpdf\Catalog.cpp" />
+		<Unit filename="xpdf\Catalog.h" />
+		<Unit filename="xpdf\CharCodeToUnicode.cpp" />
+		<Unit filename="xpdf\CharCodeToUnicode.h" />
+		<Unit filename="xpdf\CharTypes.h" />
+		<Unit filename="xpdf\CompactFontTables.h" />
+		<Unit filename="xpdf\CoreOutputDev.cpp" />
+		<Unit filename="xpdf\CoreOutputDev.h" />
+		<Unit filename="xpdf\Decrypt.cpp" />
+		<Unit filename="xpdf\Decrypt.h" />
+		<Unit filename="xpdf\Dict.cpp" />
+		<Unit filename="xpdf\Dict.h" />
+		<Unit filename="xpdf\Error.cpp" />
+		<Unit filename="xpdf\Error.h" />
+		<Unit filename="xpdf\ErrorCodes.h" />
+		<Unit filename="xpdf\FontEncodingTables.cpp" />
+		<Unit filename="xpdf\FontEncodingTables.h" />
+		<Unit filename="xpdf\Function.cpp" />
+		<Unit filename="xpdf\Function.h" />
+		<Unit filename="xpdf\Gfx.cpp" />
+		<Unit filename="xpdf\Gfx.h" />
+		<Unit filename="xpdf\GfxFont.cpp" />
+		<Unit filename="xpdf\GfxFont.h" />
+		<Unit filename="xpdf\GfxState.cpp" />
+		<Unit filename="xpdf\GfxState.h" />
+		<Unit filename="xpdf\GlobalParams.cpp" />
+		<Unit filename="xpdf\GlobalParams.h" />
+		<Unit filename="xpdf\ImageOutputDev.cpp" />
+		<Unit filename="xpdf\ImageOutputDev.h" />
+		<Unit filename="xpdf\JArithmeticDecoder.cpp" />
+		<Unit filename="xpdf\JArithmeticDecoder.h" />
+		<Unit filename="xpdf\JBIG2Stream.cpp" />
+		<Unit filename="xpdf\JBIG2Stream.h" />
+		<Unit filename="xpdf\JPXStream.cpp" />
+		<Unit filename="xpdf\JPXStream.h" />
+		<Unit filename="xpdf\Lexer.cpp" />
+		<Unit filename="xpdf\Lexer.h" />
+		<Unit filename="xpdf\Link.cpp" />
+		<Unit filename="xpdf\Link.h" />
+		<Unit filename="xpdf\NameToCharCode.cpp" />
+		<Unit filename="xpdf\NameToCharCode.h" />
+		<Unit filename="xpdf\NameToUnicodeTable.h" />
+		<Unit filename="xpdf\Object.cpp" />
+		<Unit filename="xpdf\Object.h" />
+		<Unit filename="xpdf\Outline.cpp" />
+		<Unit filename="xpdf\Outline.h" />
+		<Unit filename="xpdf\OutputDev.cpp" />
+		<Unit filename="xpdf\OutputDev.h" />
+		<Unit filename="xpdf\PDFCore.cpp" />
+		<Unit filename="xpdf\PDFCore.h" />
+		<Unit filename="xpdf\PDFDoc.cpp" />
+		<Unit filename="xpdf\PDFDoc.h" />
+		<Unit filename="xpdf\PDFDocEncoding.cpp" />
+		<Unit filename="xpdf\PDFDocEncoding.h" />
+		<Unit filename="xpdf\PSTokenizer.cpp" />
+		<Unit filename="xpdf\PSTokenizer.h" />
+		<Unit filename="xpdf\Page.cpp" />
+		<Unit filename="xpdf\Page.h" />
+		<Unit filename="xpdf\Parser.cpp" />
+		<Unit filename="xpdf\Parser.h" />
+		<Unit filename="xpdf\PreScanOutputDev.cpp" />
+		<Unit filename="xpdf\PreScanOutputDev.h" />
+		<Unit filename="xpdf\SecurityHandler.cpp" />
+		<Unit filename="xpdf\SecurityHandler.h" />
+		<Unit filename="xpdf\SplashOutputDev.cpp" />
+		<Unit filename="xpdf\SplashOutputDev.h" />
+		<Unit filename="xpdf\Stream-CCITT.h" />
+		<Unit filename="xpdf\Stream.cpp" />
+		<Unit filename="xpdf\Stream.h" />
+		<Unit filename="xpdf\TextOutputDev.cpp" />
+		<Unit filename="xpdf\TextOutputDev.h" />
+		<Unit filename="xpdf\UTF8.h" />
+		<Unit filename="xpdf\UnicodeMap.cpp" />
+		<Unit filename="xpdf\UnicodeMap.h" />
+		<Unit filename="xpdf\UnicodeMapTables.h" />
+		<Unit filename="xpdf\UnicodeTypeTable.cpp" />
+		<Unit filename="xpdf\UnicodeTypeTable.h" />
+		<Unit filename="xpdf\XRef.cpp" />
+		<Unit filename="xpdf\XRef.h" />
+		<Unit filename="xpdf\about-text.h" />
+		<Unit filename="xpdf\config.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

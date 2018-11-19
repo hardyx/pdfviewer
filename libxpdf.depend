@@ -1,0 +1,1166 @@
+# depslib dependency file v1.0
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fixedpoint.cpp
+	<aconf.h>
+	"FixedPoint.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fixedpoint.h
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\gtypes.h
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fofibase.cpp
+	<aconf.h>
+	<stdio.h>
+	"gmem.h"
+	"FoFiBase.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\gmem.h
+	<stdio.h>
+	<aconf.h>
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fofibase.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fofiencodings.cpp
+	<aconf.h>
+	<stdlib.h>
+	"FoFiEncodings.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fofiencodings.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fofitruetype.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gtypes.h"
+	"gmem.h"
+	"GString.h"
+	"GHash.h"
+	"FoFiType1C.h"
+	"FoFiTrueType.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\gstring.h
+	<aconf.h>
+	<stdarg.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\ghash.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fofitype1c.h
+	<aconf.h>
+	"gtypes.h"
+	"FoFiBase.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fofitruetype.h
+	<aconf.h>
+	"gtypes.h"
+	"FoFiBase.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fofitype1.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"FoFiEncodings.h"
+	"FoFiType1.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\fofitype1.h
+	<aconf.h>
+	"gtypes.h"
+	"FoFiBase.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\fofitype1c.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"gmem.h"
+	"GString.h"
+	"FoFiEncodings.h"
+	"FoFiType1C.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\ghash.cpp
+	<aconf.h>
+	"gmem.h"
+	"GString.h"
+	"GHash.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\glist.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"GList.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\glist.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\gstring.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	"gmem.h"
+	"GString.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\gfile.cpp
+	<aconf.h>
+	<time.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<limits.h>
+	<string.h>
+	<pwd.h>
+	<unixlib.h>
+	"GString.h"
+	"gfile.h"
+
+1388528950 c:\mios\wiz\pdfviewer\fogoo\gfile.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<sys/stat.h>
+	<win32lib.h>
+	<windows.h>
+	<ctime.h>
+	<unistd.h>
+	<sys/types.h>
+	"vms_dirent.h"
+	<dirent.h>
+	<sys/ndir.h>
+	<sys/dir.h>
+	<ndir.h>
+	"gtypes.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\gmem.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"gmem.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\fogoo\gmempp.cpp
+	<aconf.h>
+	"gmem.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splash.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"SplashErrorCodes.h"
+	"SplashMath.h"
+	"SplashBitmap.h"
+	"SplashState.h"
+	"SplashPath.h"
+	"SplashXPath.h"
+	"SplashXPathScanner.h"
+	"SplashPattern.h"
+	"SplashScreen.h"
+	"SplashFont.h"
+	"SplashGlyphBitmap.h"
+	"Splash.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splasherrorcodes.h
+	<aconf.h>
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashmath.h
+	<aconf.h>
+	"FixedPoint.h"
+	<math.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashtypes.h
+	<aconf.h>
+	"gtypes.h"
+	"FixedPoint.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashbitmap.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashstate.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashpath.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashxpath.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashxpathscanner.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashpattern.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashscreen.h
+	<aconf.h>
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashfont.h
+	<aconf.h>
+	"gtypes.h"
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashglyphbitmap.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splash.h
+	<aconf.h>
+	"SplashTypes.h"
+	"SplashClip.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashclip.h
+	<aconf.h>
+	"SplashTypes.h"
+	"SplashMath.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashbitmap.cpp
+	<aconf.h>
+	<stdio.h>
+	"gmem.h"
+	"SplashErrorCodes.h"
+	"SplashBitmap.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashclip.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"SplashErrorCodes.h"
+	"SplashPath.h"
+	"SplashXPath.h"
+	"SplashXPathScanner.h"
+	"SplashBitmap.h"
+	"SplashClip.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashftfont.cpp
+	<aconf.h>
+	<ft2build.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashGlyphBitmap.h"
+	"SplashPath.h"
+	"SplashFTFontEngine.h"
+	"SplashFTFontFile.h"
+	"SplashFTFont.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashftfontengine.h
+	<aconf.h>
+	<ft2build.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashftfontfile.h
+	<aconf.h>
+	<ft2build.h>
+	"SplashFontFile.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashfontfile.h
+	<aconf.h>
+	"gtypes.h"
+	"SplashTypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashftfont.h
+	<aconf.h>
+	<ft2build.h>
+	"SplashFont.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashftfontengine.cpp
+	<aconf.h>
+	<stdio.h>
+	<unistd.h>
+	"gmem.h"
+	"GString.h"
+	"gfile.h"
+	"FoFiTrueType.h"
+	"FoFiType1C.h"
+	"SplashFTFontFile.h"
+	"SplashFTFontEngine.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashftfontfile.cpp
+	<aconf.h>
+	"gmem.h"
+	"SplashFTFontEngine.h"
+	"SplashFTFont.h"
+	"SplashFTFontFile.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashfont.cpp
+	<aconf.h>
+	<string.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashGlyphBitmap.h"
+	"SplashFontFile.h"
+	"SplashFont.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashfontengine.cpp
+	<aconf.h>
+	<t1lib.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	"gmem.h"
+	"GString.h"
+	"SplashMath.h"
+	"SplashT1FontEngine.h"
+	"SplashFTFontEngine.h"
+	"SplashFontFile.h"
+	"SplashFontFileID.h"
+	"SplashFont.h"
+	"SplashFontEngine.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splasht1fontengine.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashfontfileid.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splashfontengine.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashfontfile.cpp
+	<aconf.h>
+	<stdio.h>
+	<unistd.h>
+	"GString.h"
+	"SplashFontFile.h"
+	"SplashFontFileID.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashfontfileid.cpp
+	<aconf.h>
+	"SplashFontFileID.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashpath.cpp
+	<aconf.h>
+	<string.h>
+	"gmem.h"
+	"SplashErrorCodes.h"
+	"SplashPath.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashpattern.cpp
+	<aconf.h>
+	"SplashMath.h"
+	"SplashScreen.h"
+	"SplashPattern.h"
+
+1394451336 source:c:\mios\wiz\pdfviewer\splash\splashscreen.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashScreen.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashstate.cpp
+	<aconf.h>
+	<string.h>
+	"gmem.h"
+	"SplashPattern.h"
+	"SplashScreen.h"
+	"SplashClip.h"
+	"SplashBitmap.h"
+	"SplashState.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splasht1font.cpp
+	<aconf.h>
+	<stdlib.h>
+	<t1lib.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashGlyphBitmap.h"
+	"SplashPath.h"
+	"SplashT1FontEngine.h"
+	"SplashT1FontFile.h"
+	"SplashT1Font.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splasht1fontfile.h
+	<aconf.h>
+	"SplashFontFile.h"
+
+1388528950 c:\mios\wiz\pdfviewer\splash\splasht1font.h
+	<aconf.h>
+	"SplashFont.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splasht1fontengine.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<t1lib.h>
+	"GString.h"
+	"gfile.h"
+	"FoFiType1C.h"
+	"SplashT1FontFile.h"
+	"SplashT1FontEngine.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splasht1fontfile.cpp
+	<aconf.h>
+	<string.h>
+	<t1lib.h>
+	"gmem.h"
+	"SplashT1FontEngine.h"
+	"SplashT1Font.h"
+	"SplashT1FontFile.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashxpath.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashPath.h"
+	"SplashXPath.h"
+
+1388528950 source:c:\mios\wiz\pdfviewer\splash\splashxpathscanner.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"SplashMath.h"
+	"SplashXPath.h"
+	"SplashBitmap.h"
+	"SplashXPathScanner.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\annot.cpp
+	<aconf.h>
+	<stdlib.h>
+	<math.h>
+	"gmem.h"
+	"GList.h"
+	"Error.h"
+	"Object.h"
+	"Catalog.h"
+	"Gfx.h"
+	"GfxFont.h"
+	"Lexer.h"
+	"Annot.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\error.h
+	<aconf.h>
+	<stdio.h>
+	"config.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\config.h
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\object.h
+	<aconf.h>
+	<stdio.h>
+	<string.h>
+	"gtypes.h"
+	"gmem.h"
+	"GString.h"
+	"Array.h"
+	"Dict.h"
+	"Stream.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\array.h
+	<aconf.h>
+	"Object.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\dict.h
+	<aconf.h>
+	"Object.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\stream.h
+	<aconf.h>
+	<stdio.h>
+	"gtypes.h"
+	"Object.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\catalog.h
+	<aconf.h>
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\gfx.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\gfxfont.h
+	<aconf.h>
+	"gtypes.h"
+	"GString.h"
+	"Object.h"
+	"CharTypes.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\chartypes.h
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\lexer.h
+	<aconf.h>
+	"Object.h"
+	"Stream.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\annot.h
+	<aconf.h>
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\array.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stddef.h>
+	"gmem.h"
+	"Object.h"
+	"Array.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\builtinfont.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	"gmem.h"
+	"FontEncodingTables.h"
+	"BuiltinFont.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\fontencodingtables.h
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\builtinfont.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\builtinfonttables.cpp
+	<aconf.h>
+	<stdlib.h>
+	"FontEncodingTables.h"
+	"BuiltinFontTables.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\builtinfonttables.h
+	"BuiltinFont.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\cmap.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"gmem.h"
+	"gfile.h"
+	"GString.h"
+	"Error.h"
+	"GlobalParams.h"
+	"PSTokenizer.h"
+	"CMap.h"
+
+1394460320 c:\mios\wiz\pdfviewer\xpdf\globalparams.h
+	<aconf.h>
+	<stdio.h>
+	"gtypes.h"
+	"CharTypes.h"
+	"GMutex.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\pstokenizer.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\cmap.h
+	<aconf.h>
+	"gtypes.h"
+	"CharTypes.h"
+	"GMutex.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\catalog.cpp
+	<aconf.h>
+	<stddef.h>
+	"gmem.h"
+	"Object.h"
+	"XRef.h"
+	"Array.h"
+	"Dict.h"
+	"Page.h"
+	"Error.h"
+	"Link.h"
+	"Catalog.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\xref.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\page.h
+	<aconf.h>
+	"Object.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\link.h
+	<aconf.h>
+	"Object.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\charcodetounicode.cpp
+	<aconf.h>
+	<stdio.h>
+	<string.h>
+	"gmem.h"
+	"gfile.h"
+	"GString.h"
+	"Error.h"
+	"GlobalParams.h"
+	"PSTokenizer.h"
+	"CharCodeToUnicode.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\charcodetounicode.h
+	<aconf.h>
+	"CharTypes.h"
+	"GMutex.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\coreoutputdev.cpp
+	<aconf.h>
+	"Object.h"
+	"TextOutputDev.h"
+	"CoreOutputDev.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\textoutputdev.h
+	<aconf.h>
+	<stdio.h>
+	"gtypes.h"
+	"GfxFont.h"
+	"OutputDev.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\outputdev.h
+	<aconf.h>
+	"gtypes.h"
+	"CharTypes.h"
+
+1394465764 c:\mios\wiz\pdfviewer\xpdf\coreoutputdev.h
+	"SplashTypes.h"
+	"SplashOutputDev.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\splashoutputdev.h
+	<aconf.h>
+	"gtypes.h"
+	"SplashTypes.h"
+	"config.h"
+	"OutputDev.h"
+	"GfxState.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\gfxstate.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+	"Function.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\function.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\decrypt.cpp
+	<aconf.h>
+	<string.h>
+	"gmem.h"
+	"Decrypt.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\decrypt.h
+	<aconf.h>
+	"gtypes.h"
+	"GString.h"
+	"Object.h"
+	"Stream.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\dict.cpp
+	<aconf.h>
+	<stddef.h>
+	<string.h>
+	"gmem.h"
+	"Object.h"
+	"XRef.h"
+	"Dict.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\error.cpp
+	<aconf.h>
+	<stdio.h>
+	<stddef.h>
+	<stdarg.h>
+	"GlobalParams.h"
+	"Error.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\fontencodingtables.cpp
+	<aconf.h>
+	<stdlib.h>
+	"FontEncodingTables.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\function.cpp
+	<aconf.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	"gmem.h"
+	"Object.h"
+	"Dict.h"
+	"Stream.h"
+	"Error.h"
+	"Function.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\gfx.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	<math.h>
+	"gmem.h"
+	"GlobalParams.h"
+	"CharTypes.h"
+	"Object.h"
+	"Array.h"
+	"Dict.h"
+	"Stream.h"
+	"Lexer.h"
+	"Parser.h"
+	"GfxFont.h"
+	"GfxState.h"
+	"OutputDev.h"
+	"Page.h"
+	"Annot.h"
+	"Error.h"
+	"Gfx.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\parser.h
+	<aconf.h>
+	"Lexer.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\gfxfont.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"gmem.h"
+	"Error.h"
+	"Object.h"
+	"Dict.h"
+	"GlobalParams.h"
+	"CMap.h"
+	"CharCodeToUnicode.h"
+	"FontEncodingTables.h"
+	"BuiltinFontTables.h"
+	"FoFiType1.h"
+	"FoFiType1C.h"
+	"FoFiTrueType.h"
+	"GfxFont.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\gfxstate.cpp
+	<aconf.h>
+	<stddef.h>
+	<math.h>
+	<string.h>
+	"gmem.h"
+	"Error.h"
+	"Object.h"
+	"Array.h"
+	"Page.h"
+	"GfxState.h"
+
+1394460378 source:c:\mios\wiz\pdfviewer\xpdf\globalparams.cpp
+	<aconf.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<shlobj.h>
+	<paper.h>
+	"gmem.h"
+	"GString.h"
+	"GList.h"
+	"GHash.h"
+	"gfile.h"
+	"Error.h"
+	"NameToCharCode.h"
+	"CharCodeToUnicode.h"
+	"UnicodeMap.h"
+	"CMap.h"
+	"BuiltinFontTables.h"
+	"FontEncodingTables.h"
+	"GlobalParams.h"
+	"NameToUnicodeTable.h"
+	"UnicodeMapTables.h"
+	"UTF8.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\nametocharcode.h
+	<aconf.h>
+	"CharTypes.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\unicodemap.h
+	<aconf.h>
+	"gtypes.h"
+	"CharTypes.h"
+	"GMutex.h"
+
+1388528951 c:\mios\wiz\pdfviewer\xpdf\nametounicodetable.h
+
+1388528950 c:\mios\wiz\pdfviewer\xpdf\unicodemaptables.h
+
+1388528950 c:\mios\wiz\pdfviewer\xpdf\utf8.h
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\imageoutputdev.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<ctype.h>
+	"gmem.h"
+	"config.h"
+	"Error.h"
+	"GfxState.h"
+	"Object.h"
+	"Stream.h"
+	"ImageOutputDev.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\imageoutputdev.h
+	<aconf.h>
+	<stdio.h>
+	"gtypes.h"
+	"OutputDev.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\jarithmeticdecoder.cpp
+	<aconf.h>
+	"Object.h"
+	"Stream.h"
+	"JArithmeticDecoder.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\jarithmeticdecoder.h
+	<aconf.h>
+	"gtypes.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\jbig2stream.cpp
+	<aconf.h>
+	<stdlib.h>
+	<limits.h>
+	"GList.h"
+	"Error.h"
+	"JArithmeticDecoder.h"
+	"JBIG2Stream.h"
+	"Stream-CCITT.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\jbig2stream.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+	"Stream.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\stream-ccitt.h
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\jpxstream.cpp
+	<aconf.h>
+	<limits.h>
+	"gmem.h"
+	"Error.h"
+	"JArithmeticDecoder.h"
+	"JPXStream.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\jpxstream.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+	"Stream.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\lexer.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<ctype.h>
+	"Lexer.h"
+	"Error.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\link.cpp
+	<aconf.h>
+	<stddef.h>
+	<string.h>
+	"gmem.h"
+	"GString.h"
+	"Error.h"
+	"Object.h"
+	"Array.h"
+	"Dict.h"
+	"Link.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\nametocharcode.cpp
+	<aconf.h>
+	<string.h>
+	"gmem.h"
+	"NameToCharCode.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\object.cpp
+	<aconf.h>
+	<stddef.h>
+	"Object.h"
+	"Array.h"
+	"Dict.h"
+	"Error.h"
+	"Stream.h"
+	"XRef.h"
+
+1394462778 source:c:\mios\wiz\pdfviewer\xpdf\outline.cpp
+	<aconf.h>
+	"gmem.h"
+	"GString.h"
+	"GList.h"
+	"Link.h"
+	"PDFDocEncoding.h"
+	"Outline.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\pdfdocencoding.h
+	"CharTypes.h"
+
+1394462704 c:\mios\wiz\pdfviewer\xpdf\outline.h
+	<aconf.h>
+	"Object.h"
+	"CharTypes.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\outputdev.cpp
+	<aconf.h>
+	<stddef.h>
+	"Object.h"
+	"Stream.h"
+	"GfxState.h"
+	"OutputDev.h"
+
+1394468602 source:c:\mios\wiz\pdfviewer\xpdf\pdfcore.cpp
+	<aconf.h>
+	<math.h>
+	"GString.h"
+	"GList.h"
+	"GlobalParams.h"
+	"Splash.h"
+	"SplashBitmap.h"
+	"SplashPattern.h"
+	"SplashPath.h"
+	"Error.h"
+	"ErrorCodes.h"
+	"PDFDoc.h"
+	"Link.h"
+	"TextOutputDev.h"
+	"CoreOutputDev.h"
+	"PDFCore.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\errorcodes.h
+
+1394468588 c:\mios\wiz\pdfviewer\xpdf\pdfdoc.h
+	<aconf.h>
+	<stdio.h>
+	"XRef.h"
+	"Catalog.h"
+	"Page.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\pdfcore.h
+	<aconf.h>
+	<stdlib.h>
+	"SplashTypes.h"
+	"CharTypes.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\pdfdoc.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<windows.h>
+	"GString.h"
+	"config.h"
+	"GlobalParams.h"
+	"Page.h"
+	"Catalog.h"
+	"Stream.h"
+	"XRef.h"
+	"Link.h"
+	"OutputDev.h"
+	"Error.h"
+	"ErrorCodes.h"
+	"Lexer.h"
+	"Parser.h"
+	"SecurityHandler.h"
+	"Outline.h"
+	"PDFDoc.h"
+
+1394460100 c:\mios\wiz\pdfviewer\xpdf\securityhandler.h
+	<aconf.h>
+	"gtypes.h"
+	"Object.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\pdfdocencoding.cpp
+	"PDFDocEncoding.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\pstokenizer.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	"PSTokenizer.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\page.cpp
+	<aconf.h>
+	<stddef.h>
+	"GlobalParams.h"
+	"Object.h"
+	"Array.h"
+	"Dict.h"
+	"XRef.h"
+	"Link.h"
+	"OutputDev.h"
+	"Gfx.h"
+	"GfxState.h"
+	"Annot.h"
+	"Error.h"
+	"Catalog.h"
+	"Page.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\parser.cpp
+	<aconf.h>
+	<stddef.h>
+	"Object.h"
+	"Array.h"
+	"Dict.h"
+	"Decrypt.h"
+	"Parser.h"
+	"XRef.h"
+	"Error.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\prescanoutputdev.cpp
+	<aconf.h>
+	<math.h>
+	"GlobalParams.h"
+	"GfxFont.h"
+	"Link.h"
+	"PreScanOutputDev.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\prescanoutputdev.h
+	<aconf.h>
+	"gtypes.h"
+	"GfxState.h"
+	"OutputDev.h"
+
+1394460084 source:c:\mios\wiz\pdfviewer\xpdf\securityhandler.cpp
+	<aconf.h>
+	"GString.h"
+	"PDFDoc.h"
+	"Decrypt.h"
+	"Error.h"
+	"GlobalParams.h"
+	"XPDFCore.h"
+	"WinPDFCore.h"
+	"SecurityHandler.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\splashoutputdev.cpp
+	<aconf.h>
+	<string.h>
+	<math.h>
+	"gfile.h"
+	"GlobalParams.h"
+	"Error.h"
+	"Object.h"
+	"GfxFont.h"
+	"Link.h"
+	"CharCodeToUnicode.h"
+	"FontEncodingTables.h"
+	"FoFiTrueType.h"
+	"SplashBitmap.h"
+	"SplashGlyphBitmap.h"
+	"SplashPattern.h"
+	"SplashScreen.h"
+	"SplashPath.h"
+	"SplashState.h"
+	"SplashErrorCodes.h"
+	"SplashFontEngine.h"
+	"SplashFont.h"
+	"SplashFontFile.h"
+	"SplashFontFileID.h"
+	"Splash.h"
+	"SplashOutputDev.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\stream.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<limits.h>
+	<unistd.h>
+	<string.h>
+	<ctype.h>
+	"gmem.h"
+	"gfile.h"
+	"config.h"
+	"Error.h"
+	"Object.h"
+	"Lexer.h"
+	"GfxState.h"
+	"Stream.h"
+	"JBIG2Stream.h"
+	"JPXStream.h"
+	"Stream-CCITT.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\textoutputdev.cpp
+	<aconf.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<math.h>
+	<ctype.h>
+	<fcntl.h>
+	<io.h>
+	"gmem.h"
+	"GString.h"
+	"GList.h"
+	"config.h"
+	"Error.h"
+	"GlobalParams.h"
+	"UnicodeMap.h"
+	"UnicodeTypeTable.h"
+	"GfxState.h"
+	"Link.h"
+	"TextOutputDev.h"
+	"ICSupport.h"
+
+1388528952 c:\mios\wiz\pdfviewer\xpdf\unicodetypetable.h
+	"gtypes.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\unicodemap.cpp
+	<aconf.h>
+	<stdio.h>
+	<string.h>
+	"gmem.h"
+	"gfile.h"
+	"GString.h"
+	"GList.h"
+	"Error.h"
+	"GlobalParams.h"
+	"UnicodeMap.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\unicodetypetable.cpp
+	<stdlib.h>
+	"CharTypes.h"
+	"UnicodeTypeTable.h"
+
+1388528952 source:c:\mios\wiz\pdfviewer\xpdf\xref.cpp
+	<aconf.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<ctype.h>
+	"gmem.h"
+	"Object.h"
+	"Stream.h"
+	"Lexer.h"
+	"Parser.h"
+	"Dict.h"
+	"Error.h"
+	"ErrorCodes.h"
+	"XRef.h"
+

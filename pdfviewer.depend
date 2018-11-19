@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1418599613 source:c:\mios\wiz\pdfviewer\pdfclass.cpp
+	"aconf.h"
+	<stdio.h>
+	<SDL.h>
+	"gmem.h"
+	"GString.h"
+	"GlobalParams.h"
+	"Object.h"
+	"PDFDoc.h"
+	"SplashBitmap.h"
+	"Splash.h"
+	"SplashOutputDev.h"
+	"config.h"
+	"generals.h"
+	"wizdisk.h"
+	"dialogs.h"
+	"pdfclass.h"
+
+1394462410 c:\mios\wiz\pdfviewer\aconf.h
+	<aconf2.h>
+
+1388528950 c:\mios\wiz\pdfviewer\generals.h
+	<vector>
+	<string>
+
+1418134558 c:\mios\wiz\pdfviewer\wizdisk.h
+	"generals.h"
+
+1388528952 c:\mios\wiz\pdfviewer\dialogs.h
+	"generals.h"
+	"xpvideo.h"
+
+1418067974 c:\mios\wiz\pdfviewer\xpvideo.h
+	<SDL.h>
+	<SDL_gfxPrimitives.h>
+
+1418599342 c:\mios\wiz\pdfviewer\pdfclass.h
+	"generals.h"
+
+1418416739 source:c:\mios\wiz\pdfviewer\wizdisk.cpp
+	<unistd.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<dirent.h>
+	"wizdisk.h"
+
+1418130910 source:c:\mios\wiz\pdfviewer\xpvideo.cpp
+	<stdlib.h>
+	<unistd.h>
+	<stdarg.h>
+	<string.h>
+	"xpvideo.h"
+
+1418681411 source:c:\mios\wiz\pdfviewer\dialogs.cpp
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"xpvideo.h"
+	"wizdisk.h"
+	"dialogs.h"
+
+1418682282 source:c:\mios\wiz\pdfviewer\pdfviewer.cpp
+	"aconf.h"
+	<stdio.h>
+	<string.h>
+	"PDFDoc.h"
+	"xpvideo.h"
+	"dialogs.h"
+	"wizdisk.h"
+	"pdfclass.h"
+
+1418134588 source:d:\mios\consolas\pdfviewer\pdfclass.cpp
+	"aconf.h"
+	<stdio.h>
+	<SDL.h>
+	"gmem.h"
+	"GString.h"
+	"GlobalParams.h"
+	"Object.h"
+	"PDFDoc.h"
+	"SplashBitmap.h"
+	"Splash.h"
+	"SplashOutputDev.h"
+	"config.h"
+	"generals.h"
+	"wizdisk.h"
+	"dialogs.h"
+	"pdfclass.h"
+
+1394462410 d:\mios\consolas\pdfviewer\aconf.h
+	<aconf2.h>
+
+1388528950 d:\mios\consolas\pdfviewer\generals.h
+	<vector>
+	<string>
+
+1418134557 d:\mios\consolas\pdfviewer\wizdisk.h
+	"generals.h"
+
+1388528952 d:\mios\consolas\pdfviewer\dialogs.h
+	"generals.h"
+	"xpvideo.h"
+
+1418067974 d:\mios\consolas\pdfviewer\xpvideo.h
+	<SDL.h>
+	<SDL_gfxPrimitives.h>
+
+1394532728 d:\mios\consolas\pdfviewer\pdfclass.h
+	"generals.h"
+
+1418134624 source:d:\mios\consolas\pdfviewer\pdfviewer.cpp
+	"aconf.h"
+	<stdio.h>
+	<string.h>
+	"PDFDoc.h"
+	"xpvideo.h"
+	"dialogs.h"
+	"wizdisk.h"
+	"pdfclass.h"
+
+1418134449 source:d:\mios\consolas\pdfviewer\wizdisk.cpp
+	<unistd.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<dirent.h>
+	"wizdisk.h"
+
+1418130909 source:d:\mios\consolas\pdfviewer\xpvideo.cpp
+	<stdlib.h>
+	<unistd.h>
+	<stdarg.h>
+	<string.h>
+	"xpvideo.h"
+
+1394525834 source:d:\mios\consolas\pdfviewer\dialogs.cpp
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"xpvideo.h"
+	"wizdisk.h"
+	"dialogs.h"
+
